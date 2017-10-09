@@ -3,7 +3,7 @@
 ## This service provides an opportunity:
 - get all customers
 - get customer by id
-- creat a new customer
+- create a new customer
 - modification of customer properties
 - get all orders
 - get all customer orders
