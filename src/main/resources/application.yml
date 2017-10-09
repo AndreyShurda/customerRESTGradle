@@ -1,0 +1,21 @@
+spring:
+  datasource:
+    driver-class-name: org.postgresql.Driver
+    url: jdbc:postgresql://localhost/test
+#    driver-class-name: com.mysql.jdbc.Driver
+#    url: jdbc:mysql://localhost/cashup?useSSL=false
+    username: postgres
+#    username: root
+    password: 32167
+
+  jpa:
+    show-sql: false
+    generate-ddl: true
+    hibernate:
+      ddl-auto: update
+    properties:
+      hibernate:
+        enable_lazy_load_no_trans: true
+
+server:
+    port: 8080

@@ -1,0 +1,17 @@
+{
+  "id": 1,
+  "firstName": "Ivan",
+  "lastName": "Ivanov",
+  "birthday": "2000-01-01",
+  "number": "123456789",
+  "orders": [
+    {
+      "id": 1,
+      "date": "2017-10-04 12:00:00",
+      "stateOrder": "NEW",
+      "amount": 12.55,
+      "currency": "UAH"
+    }
+  ]
+}
+
